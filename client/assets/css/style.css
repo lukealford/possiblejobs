@@ -1,0 +1,51 @@
+body {
+  padding-top: 5rem;
+}
+a{transition: all 0.2s ease-in;}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+
+}
+.home-img .starter-template a{color: #fff; text-decoration: underline;}
+ul{list-style-type: none;}
+
+.description{
+  max-height: 150px;
+  overflow: hidden;
+}
+.result{margin-bottom: 10px;}
+
+#home-nav{
+  margin: 0 auto;
+  width: 358px;
+
+}
+.navbar{
+  background:rgba(224, 224, 224, 0.2);
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  right: 24px;
+}
+footer a{
+  color: #5cb85c;
+}
+.home-img footer a:hover{color: #fff; text-decoration: underline;}
+#update{
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.home-img{
+  background-image: url('http://jobs.lukea.gq/client/assets/img/UIN7XK6I94.jpg');
+  background-size: cover;
+  color: #fff;
+}
+.home-img .navbar a {color: #fff;}
+.nav-pills li a:hover{
+  background:#0275d8;
+  color: #fff;
+}
